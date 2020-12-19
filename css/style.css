@@ -60,7 +60,7 @@ body hr{
 }
 .card .cardbody{
     text-align: center;
-    width: 200px;
+    width: auto;
 }
 .card .cardbody span{
     font-weight: 700;
