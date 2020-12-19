@@ -3,141 +3,94 @@
 body{
     margin: 0%;
     font-family: 'Oxygen', sans-serif;
-    padding-top: 30px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(4,189,40,1) 0%, rgba(0,212,255,1) 100%);
+    padding-top: 80px;
 }
-.main{
+.inner .img img{
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.inner .img p{
+    color: #fff;
+    font-weight: 600;
+}
+body hr{
+    background-color: #000;
+}
+.hr3{
+    width: 250px;
+}
+.hr2{
+    width: 213px;
+}
+.hr1{
+    width: 270px;
+}
+.inner .about{
+    margin-bottom: 20px;
+}
+.inner .about div{
+    margin-top: 20px;
+}
+.inner .about div a{
+    border: 3px solid black;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0px 40px;
+    color: crimson;
+    border-radius: 30px;
+}
+.link_inner{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+.link_inner div{
+    margin: 3px 3px;
+    border-radius: 20px;
+}
+.link_inner div a i{
+    color: #fff;
+    padding: 10px 50px;
+    font-size: 20px;
+}
+.card_inner{
+    display: flex;
+}
+.card .cardbody{
     text-align: center;
-}
-header hr{
-    width: 50%;
-}
-.start{
-    padding: 30px 100px;
-    margin-top: 50px;
-}
-.start div{
-    margin-bottom: 30px;
-}
-header img{
     width: 200px;
 }
-.tel_inner .links{
-    display: inline-flex;
-}
-.tel_inner .links div{
-    margin: 20px 30px;
-}
-.tel_inner .links div a{ 
-    padding: 10px;
-    background-color: crimson;
-    color: #fff;
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 50px;
-}
-.about{
-    margin-bottom: 30px;
-    text-align: center;
-}
-.about a{
-    text-decoration: none;
-    font-size: 30px;
-    color: #fff;
-    padding: 5px 40px;
-    background-color: rgb(0, 207, 0);   
-    border-radius: 50px;
-}
-footer{
-    text-align: center;
-}
-footer div a{
-    text-decoration: none;
-    font-size: 20px;
-    color: #000;
-}
-footer div a span{
-    font-weight: 600;
-}
-.tel{
-    text-align: center;
-}
-.tel_num{
-    display: inline-flex;
-}
-.tel div{
-    margin: 0px 10px;
-}
-.tel div a{
-    padding: 10px;
-    background-color: crimson;
-    color: #fff;
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 50px;
-}
-.address{
-    margin-top: 30px;
-}
-.footer{
-    text-align: center;
-    margin: 5px 0px;
-}
-.footer a{
-    text-decoration: none;
-    color: #000;
-    font-size: 15px;
-    font-weight: 400;
-}
-.footer a span{
-    font-weight: 600;
-}
-.main_inner{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.main div img{
-    border: 3px solid black;
-    border-radius: 50%;
-}
-.main div div{
-    margin-bottom: 30px;
-}
-.team{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    display: none;
-    margin-top: 30px;
-    border: 2px solid black;
-    border-radius: 20px;
-    padding: 10px;
-}
-.team div img{
-    width: 100px;
-    border-radius: 50%;
-    border: 3px solid red;
-}
-.team div{
-    margin: 0px 30px;
-}
-.about:hover .team{
-    display: flex;
-}
-.team p span{
-    font-size: 13px;
+.card .cardbody span{
     font-weight: 700;
 }
-.address{
-    text-align: center;
+.card .cardbody img{
+    width: 100px;
 }
-.address div{
-    font-size: 20px;
-    background-color: rgb(0, 207, 0);
+.mar_link{
+    margin: 21px 0px;
+}
+.mar_link a{
+    text-decoration: none;
+    background-color: purple;
+    color: #fff;    
+    padding: 8px 20px;
     border-radius: 50px;
-    padding: 20px;
+}
+.mar_link a:hover{
     color: #fff;
+    border: 2px solid rebeccapurple;
+}
+.tel_inner div{
+    margin: 25px 0px;
+}
+.tel_inner div a{
+    color: #fff;
+    background-color: brown;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.tel_inner div a:hover{
+    border: 2px solid black;
 }
